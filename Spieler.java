@@ -50,5 +50,4 @@ public class Spieler{
 		System.out.println(name+ " ist " + groesse + " meter groß.");
         //eingabe.close();
     }
-
 }
