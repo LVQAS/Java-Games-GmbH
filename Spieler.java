@@ -30,10 +30,10 @@ public class Spieler{
         System.out.println("Was ist dein Geschlecht, " + name + "?");
 		geschlecht = eingabe.next();
         
-        if (geschlecht.equals("m")) {
+        if (geschlecht.equalsIgnoreCase("m")) {
             System.out.println("Dein Geschlecht ist: männlich.");
-        }
-        else if (geschlecht.equals("w")) {
+        }        
+        else if (geschlecht.equalsIgnoreCase("w")) {
             System.out.println("Dein Geschlecht ist: weiblich.");
         }
         else {
