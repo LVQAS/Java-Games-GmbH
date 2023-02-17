@@ -23,10 +23,10 @@ public class Test {
 		
 		System.out.println("Wilkommen " + sp1.name + "!");
 
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		alpha.menueAuswaehlen();
 
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		alpha.goodbye();
 		
 	}
