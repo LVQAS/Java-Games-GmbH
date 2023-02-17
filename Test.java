@@ -2,7 +2,7 @@ public class Test {
 	
 	//Hauptmethode: Sie ist zuständig für die Ausführbarkeit
 	
-	public static void main (String[] args) {
+	public static void main (String[] args) throws InterruptedException {
 		
 		Spielekonsole alpha = new Spielekonsole();
 		Spieler sp1 = new Spieler();
@@ -23,6 +23,7 @@ public class Test {
 		
 		System.out.println("Wilkommen " + sp1.name + "!");
 
+		Thread.sleep(2000);
 		alpha.menueAuswaehlen();
 
 		alpha.goodbye();
