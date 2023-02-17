@@ -23,6 +23,8 @@ public class Test {
 		
 		System.out.println("Wilkommen " + sp1.name + "!");
 
+		alpha.menueAuswaehlen();
+
 		alpha.goodbye();
 		
 	}
