@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Spielekonsole
 {
 	String spiel;
+
 	public void hello() {
 		System.out.println("Starten der JavaGames GmbH Spielekonsole erfolgreich!");
 	}
@@ -13,7 +14,7 @@ public class Spielekonsole
 
 	public void menueAuswaehlen() {
 		Scanner eingabe = new Scanner(System.in);
-	System.out.println("Wähle ein Spiel: Spiel 1, Spiel 2, Spiel 3");
+		System.out.println("Wähle ein Spiel: Spiel 1, Spiel 2, Spiel 3");
 
 	String spiel = eingabe.nextLine();
 
@@ -31,8 +32,5 @@ public class Spielekonsole
 	}
 	eingabe.close();
 }
-
-
-
 
 }
