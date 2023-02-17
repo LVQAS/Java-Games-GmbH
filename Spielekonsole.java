@@ -13,22 +13,23 @@ public class Spielekonsole
 
 	public void menueAuswaehlen() {
 		Scanner eingabe = new Scanner(System.in);
-	System.out.println("Wähle ein Spiel: Spiel1, Spiel2, Spiel3");
+	System.out.println("Wähle ein Spiel: Spiel 1, Spiel 2, Spiel 3");
 
 	String spiel = eingabe.nextLine();
 
 	if (spiel.equals("1")) {
-		System.out.println("Du hast Spiel1 gewählt!");
-		
+		System.out.println("Du hast Spiel 1 gewählt!");
+
 	} else if (spiel.equals("2")) {
-		System.out.println("Du hast Spiel2 gewählt!");
+		System.out.println("Du hast Spiel 2 gewählt!");
 
 	} else if (spiel.equals("3")) {
-		System.out.println("Du hast Spiel3 gewählt!");
+		System.out.println("Du hast Spiel 3 gewählt!");
 
 	} else {
 		System.out.println("Bitte gebe eine Nummer ein!");
 	}
+	eingabe.close();
 }
 
 
