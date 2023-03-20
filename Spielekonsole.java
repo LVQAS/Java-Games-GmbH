@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Spielekonsole
 {
-	String spiel;
+	int spiel;
 
 	public void hello() {
 		System.out.println("Starten der JavaGames GmbH Spielekonsole erfolgreich!");
