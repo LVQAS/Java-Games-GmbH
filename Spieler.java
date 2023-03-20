@@ -27,7 +27,7 @@ public class Spieler{
     void setGeschlecht()
     {
         Scanner eingabe = new Scanner(System.in);
-        System.out.println("Was ist dein Geschlecht, " + name + "?");
+        System.out.println("Was ist dein Geschlecht, " + name + "? (m oder w)");
 		geschlecht = eingabe.next();
         
         if (geschlecht.equalsIgnoreCase("m")) {
@@ -45,7 +45,7 @@ public class Spieler{
     void setGroesse()
     {
         Scanner eingabe = new Scanner(System.in);
-        System.out.println("Wie groß bist du, " + name + "?");
+        System.out.println("Wie groß bist du, " + name + "? (mit Komma trennen)");
 		groesse = eingabe.nextDouble();
 		System.out.println(name+ " ist " + groesse + " meter groß.");
         //eingabe.close();
