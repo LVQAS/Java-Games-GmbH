@@ -31,6 +31,6 @@ public class Spielekonsole
 		System.out.println("Bitte gebe eine Nummer ein!");
 	}
 	eingabe.close();
-}
+	}
 
 }
