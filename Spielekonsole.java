@@ -21,7 +21,8 @@ public class Spielekonsole
 		try {
 			int spielNummer = Integer.parseInt(spiel);
 			System.out.println("Du hast Spiel " + spielNummer + " gewählt!");
-		} catch (NumberFormatException e) {
+			
+		} 	catch (NumberFormatException e) {
 			System.out.println("Du hast " + spiel + " gewählt!");
 		}
 	}
