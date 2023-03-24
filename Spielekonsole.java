@@ -18,13 +18,22 @@ public class Spielekonsole
 	
 		String spiel = eingabe.nextLine();
 	
-		try {
-			int spielNummer = Integer.parseInt(spiel);
-			System.out.println("Du hast Spiel " + spielNummer + " gewählt!");
-			
-		} 	catch (NumberFormatException e) {
-			System.out.println("Du hast " + spiel + " gewählt!");
+		switch (1)
+		{
+			case 1:
+			System.out.println ("Du hast Spiel 1 gewählt");
+				break;
+
+			case 2:
+			System.out.println ("Du hast Spiel 2 gewählt");
+				break;
+
+			case 3:
+			System.out.println ("Du hast Spiel 3 gewählt");
+				break;
+
+			default:
+			System.out.println ("Dieses Spiel existiert nicht");
 		}
 	}
-
 }
