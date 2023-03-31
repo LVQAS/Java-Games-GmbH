@@ -20,15 +20,15 @@ public class Spielekonsole
 	
 		switch (spiel)
 		{
-			case 1:
+			case "1":
 			System.out.println ("Du hast Spiel 1 gewählt");
 				break;
 
-			case 2:
+			case "2":
 			System.out.println ("Du hast Spiel 2 gewählt");
 				break;
 
-			case 3:
+			case "3":
 			System.out.println ("Du hast Spiel 3 gewählt");
 				break;
 
