@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Spielekonsole
 {
-	int spiel;
+	String spiel;
 
 	public void hello() {
 		System.out.println("Starten der JavaGames GmbH Spielekonsole erfolgreich!");
@@ -18,7 +18,7 @@ public class Spielekonsole
 	
 		String spiel = eingabe.nextLine();
 	
-		switch (1)
+		switch (spiel)
 		{
 			case 1:
 			System.out.println ("Du hast Spiel 1 gewählt");
