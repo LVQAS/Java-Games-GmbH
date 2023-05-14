@@ -1,13 +1,12 @@
 import java.util.Scanner;
 
-public class Spielekonsole
-{
+public class Spielekonsole {
 	String spiel;
 
 	public void hello() {
 		System.out.println("Starten der JavaGames GmbH Spielekonsole erfolgreich!");
 	}
-		
+
 	public void goodbye() {
 		System.out.println("Bis Baldrian!");
 	}
@@ -18,22 +17,24 @@ public class Spielekonsole
 	
 		String spiel = eingabe.nextLine();
 	
-		switch (spiel)
-		{
+		switch (spiel) {
 			case "1":
-			System.out.println ("Du hast Spiel 1 gewählt");
+			case "eins":
+				System.out.println("Du hast Spiel 1 gewählt");
 				break;
-
+	
 			case "2":
-			System.out.println ("Du hast Spiel 2 gewählt");
+			case "zwei":
+				System.out.println("Du hast Spiel 2 gewählt");
 				break;
-
+	
 			case "3":
-			System.out.println ("Du hast Spiel 3 gewählt");
+			case "drei":
+				System.out.println("Du hast Spiel 3 gewählt");
 				break;
-
+	
 			default:
-			System.out.println ("Dieses Spiel existiert nicht");
+				System.out.println("Dieses Spiel existiert nicht");
 		}
 	}
 }
