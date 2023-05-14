@@ -12,29 +12,29 @@ public class Spielekonsole {
 	}
 
 	public void menueAuswaehlen() {
-		Scanner eingabe = new Scanner(System.in);
-		System.out.println("Wähle ein Spiel: Spiel 1, Spiel 2, Spiel 3");
+		Scanner eingabe = new Scanner(System.in); // Der Hinweis "Eingabe is never closed" kann ignoriert werden!
+		System.out.println("Wähle ein Spiel: Spiel 1, Spiel 2 oder Spiel 3");
 	
 		String spiel = eingabe.nextLine();
 	
 		switch (spiel) {
 			case "1":
 			case "eins":
-				System.out.println("Du hast Spiel 1 gewählt");
+				System.out.println("Du hast Spiel 1 gewählt!");
 				break;
 	
 			case "2":
 			case "zwei":
-				System.out.println("Du hast Spiel 2 gewählt");
+				System.out.println("Du hast Spiel 2 gewählt!");
 				break;
 	
 			case "3":
 			case "drei":
-				System.out.println("Du hast Spiel 3 gewählt");
+				System.out.println("Du hast Spiel 3 gewählt!");
 				break;
 	
 			default:
-				System.out.println("Dieses Spiel existiert nicht");
+				System.out.println("Dieses Spiel existiert nicht!");
 		}
 	}
 }
