@@ -1,9 +1,9 @@
 public class Test {
-	
-	//Hauptmethode: Sie ist zuständig für die Ausführbarkeit
-	
-	public static void main (String[] args) throws InterruptedException {
-		
+
+	// Hauptmethode: Sie ist zuständig für die Ausführbarkeit
+
+	public static void main(String[] args) throws InterruptedException {
+
 		Spielekonsole alpha = new Spielekonsole();
 		Spieler sp1 = new Spieler();
 
@@ -20,7 +20,7 @@ public class Test {
 
 		sp1.setGroesse();
 		System.out.println();
-		
+
 		System.out.println("Wilkommen " + sp1.name + "!");
 
 		Thread.sleep(1000);
@@ -28,7 +28,7 @@ public class Test {
 
 		Thread.sleep(1000);
 		alpha.goodbye();
-		
+
 	}
 
 }

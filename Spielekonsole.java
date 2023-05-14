@@ -1,13 +1,12 @@
 import java.util.Scanner;
 
-public class Spielekonsole
-{
-	int spiel;
+public class Spielekonsole {
+	String spiel;
 
 	public void hello() {
 		System.out.println("Starten der JavaGames GmbH Spielekonsole erfolgreich!");
 	}
-		
+
 	public void goodbye() {
 		System.out.println("Bis Baldrian!");
 	}
@@ -18,13 +17,24 @@ public class Spielekonsole
 	
 		String spiel = eingabe.nextLine();
 	
-		try {
-			int spielNummer = Integer.parseInt(spiel);
-			System.out.println("Du hast Spiel " + spielNummer + " gewählt!");
-			
-		} 	catch (NumberFormatException e) {
-			System.out.println("Du hast " + spiel + " gewählt!");
+		switch (spiel) {
+			case "1":
+			case "eins":
+				System.out.println("Du hast Spiel 1 gewählt");
+				break;
+	
+			case "2":
+			case "zwei":
+				System.out.println("Du hast Spiel 2 gewählt");
+				break;
+	
+			case "3":
+			case "drei":
+				System.out.println("Du hast Spiel 3 gewählt");
+				break;
+	
+			default:
+				System.out.println("Dieses Spiel existiert nicht");
 		}
 	}
-
 }

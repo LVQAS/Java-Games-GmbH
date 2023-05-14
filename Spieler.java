@@ -1,53 +1,48 @@
 import java.util.Scanner;
-public class Spieler{
+
+public class Spieler {
 
     String name;
-    int alter; //Deklariert
+    int alter; // Deklariert
     String geschlecht;
     double groesse;
 
-    void setName()
-    {
+    void setName() {
         Scanner eingabe = new Scanner(System.in);
         System.out.println("Wie heißt du?");
-		name = eingabe.next();
-		System.out.println("Dein Name ist nun als " + name + " gespeichert.");
-        //eingabe.close();
+        name = eingabe.next();
+        System.out.println("Dein Name ist nun als " + name + " gespeichert.");
+        // eingabe.close();
     }
 
-    void setAlter()
-    {
+    void setAlter() {
         Scanner eingabe = new Scanner(System.in);
         System.out.println("Wie alt ist bist du, " + name + "?");
-		alter = eingabe.nextByte();
-		System.out.println(name+ " ist " + alter + " Jahre alt.");
-        //eingabe.close();
+        alter = eingabe.nextByte();
+        System.out.println(name + " ist " + alter + " Jahre alt.");
+        // eingabe.close();
     }
 
-    void setGeschlecht()
-    {
+    void setGeschlecht() {
         Scanner eingabe = new Scanner(System.in);
         System.out.println("Was ist dein Geschlecht, " + name + "? (m oder w)");
-		geschlecht = eingabe.next();
-        
+        geschlecht = eingabe.next();
+
         if (geschlecht.equalsIgnoreCase("m")) {
             System.out.println("Dein Geschlecht ist: männlich.");
-        }        
-        else if (geschlecht.equalsIgnoreCase("w")) {
+        } else if (geschlecht.equalsIgnoreCase("w")) {
             System.out.println("Dein Geschlecht ist: weiblich.");
-        }
-        else {
+        } else {
             System.out.println("Der Buchstabe konnte keinem Geschlecht zugeordnet werden...");
         }
-        //eingabe.close();
+        // eingabe.close();
     }
 
-    void setGroesse()
-    {
+    void setGroesse() {
         Scanner eingabe = new Scanner(System.in);
         System.out.println("Wie groß bist du, " + name + "? (mit Komma trennen)");
-		groesse = eingabe.nextDouble();
-		System.out.println(name+ " ist " + groesse + " meter groß.");
-        //eingabe.close();
+        groesse = eingabe.nextDouble();
+        System.out.println(name + " ist " + groesse + " meter groß.");
+        // eingabe.close();
     }
 }
