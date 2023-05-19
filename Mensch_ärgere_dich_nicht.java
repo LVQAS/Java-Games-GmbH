@@ -1,6 +1,6 @@
 import java.util.Scanner; // Scanner importiert damit eine Zahl eingebene werden kann
 
-public class Mensch_ärgere_dich_nicht {
+public class Mensch_ärgere_dich_nicht { // Erstellung der Methode "Mensch_ärgere_dich_nicht"
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String input;

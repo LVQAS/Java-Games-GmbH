@@ -1,6 +1,6 @@
 import java.util.Scanner; // Scanner importiert damit eine Zahl eingebene werden kann
 
-public class ZufallszahlRaten {
+public class ZufallszahlRaten { // Erstellung der Methode "ZufallszahlRaten"
     public static void main(String[] args) {
         // Zufallszahl generieren
         int zufallszahl = (int) (Math.random() * 10) + 1;
