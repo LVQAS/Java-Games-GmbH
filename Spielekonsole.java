@@ -19,9 +19,9 @@ public class Spielekonsole {
 	
 		switch (spiel) {
 			case "1":
-			case "eins":
-				System.out.println("Du hast Spiel 1 gewählt!");
-				break;
+            case "eins":
+                System.out.println("Du hast Spiel 1 gewählt!");
+                break;
 	
 			case "2":
 			case "zwei":

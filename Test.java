@@ -27,7 +27,7 @@ public class Test {
 		alpha.menueAuswaehlen();
 
 		Thread.sleep(1000);
-		alpha.goodbye();
+		//alpha.goodbye();
 
 	}
 
