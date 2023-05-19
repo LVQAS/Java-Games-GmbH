@@ -6,9 +6,9 @@ public class GuN {
         int Zufallszahl = random.nextInt(6) + 1; // generiere eine Zufallszahl zwischen 1 und 6
         System.out.println("Die Zahl ist: " + Zufallszahl);
         if (Zufallszahl == 6) {
-            System.out.println("Gewinn");
+            System.out.println("Gewinn :)");
         } else {
-            System.out.println("Niete");
+            System.out.println("Niete :(");
         }
     }
 }
