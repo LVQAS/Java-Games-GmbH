@@ -23,7 +23,7 @@ public class Mensch_ärgere_dich_nicht { // Erstellung der Methode "Mensch_ärge
         scanner.close(); // Schließung des Scanners
     }
     
-    public static int werfeWuerfel() { // Simulation des Würfel wurfes
+    public static int werfeWuerfel() { // Methode zur Simulation des Würfel wurfes
         return (int) (Math.random() * 6) + 1; // generiert eine zufällige Zahl
     }
 }
