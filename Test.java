@@ -9,6 +9,8 @@ public class Test {
 
 		alpha.hello();
 
+		Thread.sleep(1000);
+
 		sp1.setName();
 		System.out.println();
 
@@ -27,7 +29,7 @@ public class Test {
 		alpha.menueAuswaehlen();
 
 		Thread.sleep(1000);
-		//alpha.goodbye();
+		alpha.goodbye();
 
 	}
 
