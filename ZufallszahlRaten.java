@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // Scanner importiert damit eine Zahl eingebene werden kann
 
 public class ZufallszahlRaten {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class ZufallszahlRaten {
             System.out.print("Errate die Zahl (1-10): ");
             eingabe = scanner.nextInt();
             
-            if (eingabe == zufallszahl) {
+            if (eingabe == zufallszahl) { // If else Verzweigung mit Textausgabe
                 System.out.println("Richtig!");
                 break;
             } else {
@@ -21,6 +21,6 @@ public class ZufallszahlRaten {
             }
         } while (true);
         
-        scanner.close();
+        scanner.close(); // Schließung des Scanners
     }
 }
