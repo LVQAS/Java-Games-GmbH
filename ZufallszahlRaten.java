@@ -21,6 +21,6 @@ public class ZufallszahlRaten { // Erstellung der Klasse "ZufallszahlRaten"
             }
         } while (true);
         
-        scanner.close(); // Schließung des Scanners
+       // scanner.close(); // Schließung des Scanners
     }
 }
