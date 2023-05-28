@@ -20,7 +20,7 @@ public class Mensch_ärgere_dich_nicht { // Erstellung der Klasse "Mensch_ärger
             input = scanner.nextLine();
         } while (input.equalsIgnoreCase("ja")); // Schleife, ie solange läuft, wie der Benutzer "ja" eingibt
         
-        scanner.close(); // Schließung des Scanners
+       //scanner.close(); // Schließung des Scanners
     }
     
     public static int werfeWuerfel() { // Methode zur Simulation des Würfel wurfes
